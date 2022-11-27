@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3792744 */
+  src: url('iconfont.woff2?t=1669544916637') format('woff2'),
+       url('iconfont.woff?t=1669544916637') format('woff'),
+       url('iconfont.ttf?t=1669544916637') format('truetype');
+}
+
+.icon-fanhui{
+  font-family: "iconfont" !important;
+  font-size: 50px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 32px;
+  margin-left: 17px;
+  color:white;
+  opacity:0.5;
+}
+
+.icon-fanhui:before {
+  content: "\e8a4";
+}
+

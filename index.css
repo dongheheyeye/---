@@ -17,7 +17,7 @@
     width: 150px;
     height: 150px;
     /* background-color: aqua; */
-    margin: 70px auto 0;
+    margin: 50px auto 0;
 
 }
 .photo :nth-child(2){
@@ -26,9 +26,13 @@
     opacity: 0.5;
     margin-left: 39px;
 }
+.content{
+    width: 450px;
+    margin: 44px auto 0;
+}
 .information{
     /* background-color: aqua; */
-    font-size: 25px;
+    font-size:30px;
     color: white;
     width: 450px;
     height: 328px;
@@ -37,29 +41,44 @@
     justify-content:space-between;
 }
 .information input{
+    color: white;
+    font-size: 30px;
     border: none;
     /* 消除边框 */
     background: transparent;
     /* 设置透明色 */
-    border-bottom: 1px solid rgb(210, 209, 209);
+    border-bottom: 1px solid white;
     /* 设置下划线 */
+    outline: none;
+    /* 消除点击边框 */
 }
-p{
+::placeholder{
+    color:white;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.box1 div{
     color:aquamarine;
 }
-.box2{
+.box1{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.sign-up{
-    /* background-color: aquamarine; */
+/* .sign-up{
+    background-color: aquamarine;
     width: 450px;
     height: 75px;
-
-}
-.box1{
+    margin-top: 30px; */
+/* } */
+button{
     width: 450px;
-    margin: 44px auto 0;
+    height: 75px;
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius: 100px;
+    color:#706d9f;
+    font-weight:bold ;
+    border: none;
 }
 .sign-in{
     height: 26px;
@@ -68,6 +87,6 @@ p{
     margin: 30px auto 0;
     font-size: 21px;
 }
-.one{
+.word{
     color: aquamarine;
 }
